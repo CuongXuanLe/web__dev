@@ -23,10 +23,21 @@
     display: flex;
     width: 200px;
     justify-content: space-around;
+    margin: 0 20px;
 }
 .nav__search i,.nav__search p  {
-    margin: auto 0;
+    margin: auto 7px;
+    cursor: pointer;
 }
+
+.btn__search{
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+
+}
+
 .search__box{
     padding: 0 10px;
     display: flex;
@@ -45,6 +56,18 @@
 .banner__img img{
     width: 100%; 
     object-fit: contain;
+}
+
+.btn__cart-add{
+    padding: 15px 25px;
+    /* font-size: 1.4rem; */
+    background-color: transparent;
+    border: 3px solid yellow;
+    border-radius: 10px;
+}
+
+.btn__cart-add i {
+    font-size: 1.3rem;
 }
 
 .main__body{
@@ -114,6 +137,7 @@
     border-radius: 5px;
     cursor: pointer;
     text-align: center;
+    background-color: transparent;
 }
 
 .button p{
@@ -124,4 +148,6 @@
 .list__icon{
     display: flex;
     justify-content: space-around;
+    color: rgb(42, 116, 212);
+    font-size: 1.5rem;
 }
